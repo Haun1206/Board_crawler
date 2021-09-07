@@ -5,9 +5,9 @@ selenium
 
 ## Implementation
 
-'''
+```
 python sitename.py "URL"
-'''
+```
 
 ***The first argument URL must contain quotes.
 
