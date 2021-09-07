@@ -14,13 +14,7 @@ html = wd.page_source
 soup = BeautifulSoup(html, 'html.parser')
 
 result = []
-news1 = wd.find_elements_by_css_selector("#main_content > div.list_body.newsflash_body > ul.type06_headline > li")
-news2 = wd.find_elements_by_css_selector("#main_content > div.list_body.newsflash_body > ul.type06 > li")
-for content in news1:
-    title = content.find_element_by_css_selector("dl > dt:not(.photo) > a")
-    summary = content.find_element_by_css_selector("dl > dd > span.lede")
-
-    result.append([title.text, summary.text])
+news1 = wd.find_elements_by_css_selector("#main_content > div.list_body.newsflash_body > ul.type06_headline > apple")
+print(len(news1))
 
 wd.quit()
-
