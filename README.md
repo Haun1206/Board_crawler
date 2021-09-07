@@ -7,9 +7,14 @@ selenium
 
 ```
 python sitename.py "URL"
+
+## IMPORTANT!! The first argument URL must contain quotes
+## ex) python naver.py "https://news.naver.com/main/list.naver?mode=LS2D&mid=shm&sid1=101&sid2=259"
 ```
 
-***The first argument URL must contain quotes.
+### URL condition
+Naver news : 카테고리의 카테고리 까지 들어가서 ㅇㅇ
+Velog : 특정 저자의 홈페이지 (저자 이름 링크 눌렀을때)
 
 ## Result Data Structure
 
