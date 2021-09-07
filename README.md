@@ -13,7 +13,7 @@ python sitename.py "URL"
 ```
 
 ### URL condition
-Naver news : 카테고리의 카테고리 까지 들어가서 ㅇㅇ
+Naver news : 카테고리의 카테고리 까지 들어가서 ㅇㅇ <br>
 Velog : 특정 저자의 홈페이지 (저자 이름 링크 눌렀을때)
 
 ## Result Data Structure
