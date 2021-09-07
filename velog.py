@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
-import pandas as pd
 import json
+import sys
 # from bs4 import BeautifulSoup
 
 options= webdriver.ChromeOptions()
@@ -10,7 +10,7 @@ options.add_argument("--ignore-ssl-errors")
 # options.add_argument("--headless")
 
 wd = webdriver.Chrome('./chromedriver.exe', options=options)
-wd.get("https://velog.io/@oneook")
+wd.get(sys.argv[1])
 
 result = []
 

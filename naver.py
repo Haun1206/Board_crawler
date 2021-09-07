@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
 import json
-
 import selenium
+import sys
 
 options= webdriver.ChromeOptions()
 options.add_argument("--ignore-certificate-error")
@@ -10,7 +10,7 @@ options.add_argument("--ignore-ssl-errors")
 # options.add_argument("--headless")
 
 wd = webdriver.Chrome('./chromedriver.exe', options=options)
-wd.get("https://news.naver.com/main/list.naver?mode=LS2D&mid=shm&sid1=101&sid2=259")
+wd.get(sys.argv[1])
 
 
 result = []
