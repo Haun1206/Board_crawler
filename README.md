@@ -1,6 +1,6 @@
 # Board_crawler
 
-## Version
+## Requirement & Version
 python 3.9.6 <br>
 selenium 3.141.0
 
